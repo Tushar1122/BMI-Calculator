@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Percentage</title>
+</head>
+<style>
+    #mainBox{
+        width: 40%;
+        height: 80vh;
+        margin: 10px auto;
+        background-color: rgb(3, 247, 255);
+        padding: 20px;
+        text-align: center;
+    }
+    
+    #HeadingPara2{
+        width: 70%;
+        height: 10vh;
+        margin: 0 auto;
+        background-color: aliceblue;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    #distanePara_1{
+        width: 70%;
+        height: 4vh;
+        background-color: rgb(3, 247, 255);
+    }
+
+    #distanePara_2{
+        width: 30%;
+        height: 4vh;
+        float: inline-start;
+        background-color: aliceblue;
+    }
+
+    #distanePara_3{
+        width: 30%;
+        height: 1vh;
+        float: inline-start;
+        background-color: aliceblue;
+    }
+
+    .bodyPara{
+        width: 70%;
+        height: 45vh;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        background-color: aliceblue;
+        padding: 10px;  
+        border-radius: 5px;     
+    }
+
+    .bodyBox{
+        width: 70%;
+        height: 10vh;
+        margin: 0 auto;
+        background-color: aliceblue;
+    }
+    #bodyBox_1{
+        width: 40%;
+        height: 100px;
+        background-color: liceblue;
+        float: left;
+        border-radius: 5px;
+        border: 1px solid black;
+    }
+
+    #bodyBox_1_1{
+        width: 50%;
+        height: 20px;
+        margin: 0 auto;
+        background-color: liceblue;
+        border: 1px solid black;
+    }
+    #bodyBox_2{
+        width: 40%;
+        height: 100px;
+        background-color: liceblue;
+        float: right;
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+    #bodyBox_1_2{
+        width: 50%;
+        height: 20px;
+        margin: 0 auto;
+        background-color: liceblue;
+        border: 1px solid black;
+    }
+
+    #button_bmi{
+        width: 100%;
+        float: inline-start;
+        height: fit-content;
+        margin: 0 auto;
+        background-color: blue;
+        color: aliceblue;
+        border-radius: 5px;
+    }
+
+
+
+    #button_reset{
+        width: 100%;
+        float: inline-start;
+        height: fit-content;
+        margin: 0 auto;
+        background-color: red;
+        color: aliceblue;
+        border-radius: 5px;
+    }
+
+    
+
+    
+
+</style>
+
+<body>
+
+    <div id="mainBox">
+
+        <div id="headingPara"> <h1>BMI Calculator</h1></div>
+        
+
+        <div id="HeadingPara2">
+              <p for=""> <h2>Your BMI : 00</h2> </p>
+        </div>
+        <div id="distanePara_1"></div>
+        <div class="bodyPara">
+                <!-- <p>Height(cm) and Weight(kg)</p> -->
+               
+                <div class="bodyBox">
+
+                
+                   <div class="bodyBox" id="bodyBox_1">
+                        <p>Height</p>
+                        
+                        <label>( cm )</label>
+                        <div id="bodyBox_1_1">
+                            <label> </label>
+                        </div>
+
+                    </div>
+                    <div class="bodyBox" id="bodyBox_2">
+                        <p>Weight</p>
+                        
+                        <label>( kg )</label>
+                            <div id="bodyBox_1_2">
+                                <label></label>
+                            </div>                       
+                    </div>
+                    <div id="distanePara_2"></div>
+
+                    <div id="button_bmi">
+                        <p>Calculate BMI</p>
+                    </div>
+                    <div id="distanePara_3"></div>
+
+                    <div id="button_reset">
+                        <p>Reset</p>
+                    </div>
+
+                </div>
+
+
+                
+
+
+
+<!-- 
+                <div id="button_BMI">
+                    <label>Calculate BMI</label>
+                </div>
+
+                <div id="button_reset">
+                    <label>Reset</label>
+                </div> -->
+
+        </div>
+    </div>
+
+    
+</body>
+</html>
